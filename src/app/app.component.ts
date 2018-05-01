@@ -24,12 +24,12 @@ export class MyApp {
 			splashScreen.hide();
 		});
 
-		this.afAuth.authState.subscribe((user) => {
-			if (!user) {
-				this.rootPage = 'DetalleEventoPage';
-			} else {
-				this.rootPage = HomePage;
-			}
-		});
+		// this.afAuth.authState.subscribe((user) => {
+		// 	if (!user) {
+		// 		this.rootPage = 'DetalleEventoPage';
+		// 	} else {
+		// 		this.rootPage = HomePage;
+		// 	}
+		// });
 	}
 }

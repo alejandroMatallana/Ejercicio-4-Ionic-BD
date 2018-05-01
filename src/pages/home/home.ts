@@ -39,12 +39,12 @@ export class HomePage {
 		});
 	}
 
-	emailLogin() {
-		return this.afAuth.auth
-			.signInWithEmailAndPassword(this.correo, this.clave)
-			.then((user) => {
-				this.afAuth = user;
-			})
-			.catch((error) => console.log(error));
-	}
+	// emailLogin() {
+	// 	return this.afAuth.auth
+	// 		.signInWithEmailAndPassword(this.correo, this.clave)
+	// 		.then((user) => {
+	// 			this.afAuth = user;
+	// 		})
+	// 		.catch((error) => console.log(error));
+	// }
 }
